@@ -8,12 +8,12 @@ def foo():
 def foo1(num):
     print('num' ,num);
 
-def foo2(name ,age):
-    print('name' ,name);
-    print('age' ,age);
+def foo2(name ,history):
+    print('python' ,name);
+    print('history' ,history);
 
 if __name__=="__main__":
     print("main")
-    foo2('yuhui' ,30)
+    foo2('hello' ,'python')
     foo1(6)
     foo()
